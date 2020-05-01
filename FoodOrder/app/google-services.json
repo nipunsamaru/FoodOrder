@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "133778982113",
+    "firebase_url": "https://food-oder-1995e.firebaseio.com",
+    "project_id": "food-oder-1995e",
+    "storage_bucket": "food-oder-1995e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133778982113:android:d6e1bd7b2c9c082fd863a0",
+        "android_client_info": {
+          "package_name": "com.research.foodorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133778982113-nu4rpqgn1rkufk6vnuhd1o1ib4tl6cic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOp18qDlGUCV93sh8lH-bWqOFMP8U6ZiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133778982113-nu4rpqgn1rkufk6vnuhd1o1ib4tl6cic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

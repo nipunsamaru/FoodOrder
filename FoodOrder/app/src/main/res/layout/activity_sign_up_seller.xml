@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SignUpSeller">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up As Seller"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/signup_sid"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:hint="User Name"
+            android:layout_gravity="center"
+            android:background="@drawable/edittextdesign"
+            android:textColorHint="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_marginTop="80dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <EditText
+            android:id="@+id/ssname"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="@drawable/edittextdesign"
+            android:hint=" Shop Name"
+            android:textColorHint="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF" />
+
+
+        <EditText
+            android:id="@+id/smobile"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:background="@drawable/edittextdesign"
+            android:hint=" Mobile"
+            android:textColorHint="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/saddress"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="@drawable/edittextdesign"
+            android:hint=" Address"
+            android:textColorHint="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/signup_spassword"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="@drawable/edittextdesign"
+            android:hint=" Password"
+            android:textColorHint="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/signup_scpassword"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="@drawable/edittextdesign"
+            android:hint="Confirm Password"
+            android:textColorHint="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/add_saccount"
+            android:layout_width="340dp"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/darkgreenbtns"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Create Account"
+            android:textColor="#FFFFFF"></Button>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
