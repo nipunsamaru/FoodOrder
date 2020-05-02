@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -16,6 +17,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.research.foodorder.Buyer.Buyer;
 import com.research.foodorder.Models.User;
 
 public class SignInPage extends AppCompatActivity {
@@ -41,10 +43,11 @@ public class SignInPage extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                    Log.i("dd",user.toString());
+
                 final ProgressDialog mydialog=new ProgressDialog(SignInPage.this);
                 mydialog.setMessage("Please waiting...");
                 mydialog.show();
+
                 user.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -55,8 +58,13 @@ public class SignInPage extends AppCompatActivity {
 
                             User fuser = dataSnapshot.child(signinMobile.getText().toString()).getValue(User.class);
                             if (fuser.getPasssword().equals(signinPassword.getText().toString())) {
-                                Toast.makeText(SignInPage.this, "Success", Toast.LENGTH_SHORT).show();
+
+                              Toast.makeText(SignInPage.this, "Success", Toast.LENGTH_SHORT).show();
+                              Intent bhome = new Intent(getApplicationContext(), Buyer.class);
+                                startActivity(bhome);
+
                             } else {
+
                                 Toast.makeText(SignInPage.this, "Sorry Please Check Your...", Toast.LENGTH_SHORT).show();
                             }
                         } else {

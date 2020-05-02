@@ -16,5 +16,17 @@
     <string name="dialog_popup">   Eat It Restaurant</string>
     <string name="ok" />
     <string name="cancel" />
+    <string name="title_activity_buyer">Buyer</string>
+    <string name="nav_header_title">Promo Pack Foods</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Shops</string>
+    <string name="menu_gallery">Filter</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
 
 </resources>

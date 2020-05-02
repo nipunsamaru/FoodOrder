@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="3dp"
+    android:layout_marginTop="8dp"
+    android:elevation="8dp"
+    android:divider="@android:color/transparent">
+
+    <ImageView
+        android:id="@+id/food_image"
+        android:layout_width="147dp"
+        android:layout_height="176dp"
+        android:layout_marginLeft="25dp" />
+
+    <TextView
+        android:id="@+id/foodname"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="30dp"
+        android:text="foodname"
+        android:textColor="@color/signup"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/signin"
+        android:text="Rs. "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/foodpric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/signin"
+        android:text="150.lkr"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="120dp"
+        android:textColor="@color/signin"
+        android:text="Qty. "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/foodqty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="120dp"
+        android:textColor="@color/signin"
+        android:text="12"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/minbtn"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="120dp"
+        android:background="@android:color/darker_gray"
+        android:text="-"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/buyqty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="328dp"
+        android:layout_marginTop="128dp"
+        android:text="0"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/abtn"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="120dp"
+        android:background="@android:color/darker_gray"
+        android:text="+"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</androidx.cardview.widget.CardView>

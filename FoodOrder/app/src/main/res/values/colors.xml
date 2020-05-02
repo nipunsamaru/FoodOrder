@@ -4,4 +4,11 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="black">#000000</color>
+
+    <color name="signup">#39796b</color>
+    <color name="signin">#A9d440</color>
+    <color name="overlBack">#7f333639</color>
+    <color name="overlAction">#0e0d0e</color>
+
+
 </resources>
