@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Buyer.ShopFood"></activity>
+        <activity android:name=".Seller.EditFoodItme"></activity>
+        <activity
+            android:name=".Seller.Seller"
+            android:label="@string/title_activity_buyer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Buyer.ShopFood" />
         <activity
             android:name=".Buyer.Buyer"
             android:label="@string/title_activity_buyer"

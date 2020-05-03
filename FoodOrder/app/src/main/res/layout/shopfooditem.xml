@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="3dp"
+    android:layout_marginTop="8dp"
+    android:elevation="8dp"
+    android:divider="@android:color/transparent">
+
+    <ImageView
+        android:id="@+id/sfd_image"
+        android:layout_width="147dp"
+        android:layout_height="176dp"
+        android:layout_marginLeft="25dp" />
+
+    <TextView
+        android:id="@+id/sfdfoodname"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="30dp"
+        android:text="foodname"
+        android:textColor="@color/signup"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/signin"
+        android:text="Rs. "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/sfdfoodpric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/signin"
+        android:text="150.lkr"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="120dp"
+        android:textColor="@color/signin"
+        android:text="Qty. "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/sfdfoodqty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="120dp"
+        android:textColor="@color/signin"
+        android:text="12"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="55dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:layout_height="38dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="120dp"
+        android:textColor="@color/colorPrimary" />
+
+</androidx.cardview.widget.CardView>

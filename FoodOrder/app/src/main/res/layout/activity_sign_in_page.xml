@@ -57,15 +57,15 @@
             android:textColor="#FFFFFF"
             />
 
-        <Button
+        <info.hoang8f.widget.FButton
             android:id="@+id/signinBtn"
             android:layout_width="340dp"
             android:layout_marginTop="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:background="@drawable/lightgreenbtns"
+            android:backgroundTint="@color/signin"
             android:text="Sign In"
-            android:textColor="#FFFFFF"></Button>
+            android:textColor="#FFFFFF"></info.hoang8f.widget.FButton>
 
     </LinearLayout>
 

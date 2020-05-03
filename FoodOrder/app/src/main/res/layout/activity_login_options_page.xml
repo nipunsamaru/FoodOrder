@@ -74,6 +74,7 @@
             android:layout_height="47dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="550dp"
+            android:backgroundTint="@color/signup"
             android:text="Sign Up"
             android:textColor="#FFFFFF"
            />
@@ -85,7 +86,7 @@
             android:layout_marginLeft="230dp"
             android:layout_marginTop="-50dp"
             android:layout_marginBottom="5dp"
-            android:background="@color/signin"
+            android:backgroundTint="@color/signin"
             android:text="Sign In"
             android:textColor="#FFFFFF"
             app:buttonColor="@color/signin"
